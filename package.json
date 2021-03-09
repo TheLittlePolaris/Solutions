@@ -1,0 +1,19 @@
+{
+  "name": "solution1",
+  "version": "1.0.0",
+  "description": "solution for test problems",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && npm run start:1 && npm run start:2",
+    "start:1": "node dist/solution1.js",
+    "start:2": "node dist/solution2.js"
+  },
+  "author": "TheLittlePolaris",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.32"
+  },
+  "type": "module"
+}
