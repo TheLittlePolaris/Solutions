@@ -8,9 +8,9 @@ export const findUniqueInArray = (array: number[]): number => {
 
 
   const sumArray = array.reduce(getSum, 0); // O(N) time
-  const arraySet = [...new Set(array)]; // O(N) time, O(2) space
+  const arraySet = [...new Set(array)]; // O(N) time, O(1) space
   const sumSet = arraySet.reduce(getSum, 0); // O(N) time
-  // O(3N) time, O(2) space => O(N) time
+  // Total: O(3N) time, O(2) space => O(N) time, O(2) space
 
 
   /**
