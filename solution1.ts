@@ -3,7 +3,7 @@
 
 const givenArray = [1, 1, 0, 1];
 
-const findUniqueInArray = (array: number[]): number => {
+export const findUniqueInArray = (array: number[]): number => {
   const getSum = (a: number, b: number) => a + b;
 
 

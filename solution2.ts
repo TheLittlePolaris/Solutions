@@ -1,4 +1,4 @@
-class TreeNode {
+export class TreeNode {
   private data: number | null;
   private leftNode: TreeNode | null;
   private rightNode: TreeNode | null;
@@ -30,7 +30,7 @@ class TreeNode {
   }
 }
 
-class Tree {
+export class Tree {
   private arrayElement: (number | null)[];
   private numberOfNodes = 0;
   public root: TreeNode | null;

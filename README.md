@@ -5,3 +5,7 @@
 > To build: 
 
 `npm run build` or `yarn build`
+
+> To test:
+
+`npm run test` or `yarn test`
